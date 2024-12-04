@@ -46,14 +46,6 @@ Ensure the dataset is available in the directory for training or testing the mod
   - Output layer with a sigmoid activation function for binary classification.
 - Regularization techniques like early stopping were used to prevent overfitting.
 
-### Deployment:
-- **Streamlit Application**:
-  - Interactive inputs for customer details such as `Geography`, `Gender`, `Age`, etc.
-  - Real-time prediction of churn probability.
-  - Outputs a customer churn likelihood with recommendations.
-
----
-
 ## Technologies Used:
 - **Python**: Programming language for implementation.
 - **TensorFlow/Keras**: Neural network model development.
@@ -62,4 +54,12 @@ Ensure the dataset is available in the directory for training or testing the mod
 - **Pandas**: Data manipulation and preparation.
 - **Pickle**: Model and artifact storage.
 
+---
+
+### Deployment:
+- **Streamlit Application**:
+  - Interactive inputs for customer details such as `Geography`, `Gender`, `Age`, etc.
+  - Real-time prediction of churn probability.
+  - Outputs a customer churn likelihood with recommendations.
+![Output](https://github.com/AashishSaini16/Implementation-of-ANN-Classification/blob/main/app.JPG)
 ---
